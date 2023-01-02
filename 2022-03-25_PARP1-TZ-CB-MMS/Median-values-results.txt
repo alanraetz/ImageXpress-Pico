@@ -1,0 +1,18 @@
+ `T2_15min$ordered` `median(NucAvg1)`
+  <fct>                          <dbl>
+1 PARP1_cntl                      252.
+2 PARP1_MMS                       255.
+3 PARP1_MMS+CB                    280.
+4 PARP1_MMS+TZ                    272.
+5 PARP1_CB+TZ                     262.
+6 PARP1_MMS+CB+TZ                 280.
+> sixty_minutes
+# A tibble: 6 x 2
+  `T1_1hr$ordered` `median(NucAvg1)`
+  <fct>                        <dbl>
+1 PARP1_cntl                    267.
+2 PARP1_MMS                     281.
+3 PARP1_MMS+CB                  270.
+4 PARP1_MMS+TZ                  268.
+5 PARP1_CB+TZ                   263.
+6 PARP1_MMS+CB+TZ               280.

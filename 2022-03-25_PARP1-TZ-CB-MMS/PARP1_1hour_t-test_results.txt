@@ -1,0 +1,13 @@
+
+	Pairwise comparisons using t tests with non-pooled SD 
+
+data:  table$NucAvg1 and table$ordered 
+
+                PARP1_cntl PARP1_MMS PARP1_MMS+CB PARP1_MMS+TZ PARP1_CB+TZ
+PARP1_MMS       0.00059    -         -            -            -          
+PARP1_MMS+CB    < 2e-16    < 2e-16   -            -            -          
+PARP1_MMS+TZ    < 2e-16    < 2e-16   < 2e-16      -            -          
+PARP1_CB+TZ     < 2e-16    < 2e-16   < 2e-16      < 2e-16      -          
+PARP1_MMS+CB+TZ < 2e-16    < 2e-16   0.33413      < 2e-16      < 2e-16    
+
+P value adjustment method: BH 
